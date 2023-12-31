@@ -1,0 +1,7 @@
+{
+    "scripts": {
+        "start": "concurrently \"npm run start:frontend\" \"npm run start:backend\"",
+        "start:frontend": "cd wikipedia-loop && npm install axios && npm start",
+        "start:backend": "cd wikipedia-loop-backend && npm install express axios cors cheerio fs && node index.js"
+      }      
+}
