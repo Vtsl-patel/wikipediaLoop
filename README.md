@@ -65,6 +65,9 @@ The backend of the Wikipedia Loop project is built using Node.js and Express. It
 
 ## Getting Started
 
+Requirements : NodeJS should be installed on the system
+
 1. Clone the repository:
-2. in the root directory use command "npm install concurrently" in terminal
-3. then run "npm start" in terminal
+2. in the mainFolder use command "npm install -g concurrently" in terminal
+3. then run "npm start" in terminal of mainFolder
+4. you can now paste any Wikipedia URL for input 
