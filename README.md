@@ -1,5 +1,23 @@
-# wikipediaLoop
-Wikipedia Loop counter and path display.
+# Wikipedia Loop
+
+**Explore the "Wikipedia Loop" phenomenon with this interactive MERN stack application!**
+
+## Overview
+
+Wikipedia Loop is an engaging project that allows users to navigate through the intriguing "Wikipedia Loop" phenomenon. The application, built using the MERN (MongoDB, Express.js, React, Node.js) stack, lets users input a Wikipedia URL and follows a series of rules to explore the links within the pages until reaching the "Philosophy" page.
+
+## Features
+
+- **Interactive User Interface:** A React-based user interface provides a seamless experience for users to input Wikipedia URLs and visualize the exploration process.
+
+- **Node.js and Express Backend:** The backend handles API requests, follows Wikipedia Loop rules, and maintains a record of visited pages.
+
+- **State Management:** Utilizes state management to handle user input, display results, and ensure a smooth user experience.
+
+- **JSON File Logging:** Records each visited page and counts the number of requests made during the exploration, preventing infinite loops.
+
+- **Edge Case Handling:** Gracefully handles edge cases such as dead-end pages or pages without valid links.
+
 
 # Wikipedia Loop Project
 
