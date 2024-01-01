@@ -9,8 +9,6 @@ const InputForm = ({ onSubmit, isLoading }) => {
     onSubmit(url);
   };
 
-  console.log('isLoading value:', isLoading);
-
   return (
     <div className="input-card">
       <form onSubmit={handleSubmit}>

@@ -20,6 +20,9 @@ const followWikipediaLoop = async (url, visitedPages) => {
     let requestCount = 0;
 
     while (requestCount < MAX_REQUESTS) {
+        if (currentUrl.toLowerCase().includes('philosophy')) {
+            break;
+        }
         // Make a request to the current URL
         const response = await axios.get(currentUrl);
 
