@@ -15,7 +15,7 @@ const VISITED_PAGES_FILE = 'visited-pages.json';
 
 // Function to follow Wikipedia Loop rules
 const followWikipediaLoop = async (url, visitedPages) => {
-    const MAX_REQUESTS = 20; // Set a maximum number of requests to avoid infinite loops
+    const MAX_REQUESTS = 50; // Set a maximum number of requests to avoid infinite loops
     let currentUrl = url;
     let requestCount = 0;
 
